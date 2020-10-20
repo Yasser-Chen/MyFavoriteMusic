@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Music</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <style>
+        body {
+            background-color: rgb(255, 131, 131);
+        }
+        
+        .nav-main ul :hover {
+            background-color: rgb(252, 0, 126);
+        }
+        
+        footer {
+            top: 130%;
+            background-image: linear-gradient(rgb(255, 0, 106), rgb(255, 147, 104), rgb(170, 2, 2));
+        }
+        
+        .titles {
+            background-image: linear-gradient(rgb(255, 0, 106), rgb(252, 148, 107), rgb(255, 0, 106));
+            color: white;
+            position: absolute;
+            font-size: 50px;
+            top: 20%;
+            left: 32%;
+            padding: 5px;
+            border: black solid 1.5px;
+        }
+    </style>
+</head>
+
+<body>
+    <style>
+        .cont {
+            position: absolute;
+            width: 100%;
+            min-height: 500px;
+            top: 40%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        
+        .cont .box1 {
+            position: relative;
+            width: 170px;
+            height: 300px;
+            background: rgb(255, 131, 131);
+            margin: 10px;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+        
+        .cont .box {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            background: rgb(255, 255, 255);
+            margin: 10px;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+        
+        .cont .box .imgbox {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cont .box .imgbox img {
+            max-width: 100%;
+            transition: transform 2s;
+        }
+        
+        .cont .box:hover .imgbox img {
+            transform: scale(1.2);
+        }
+        
+        .cont .box .details {
+            position: absolute;
+            top: 100px;
+            left: 10px;
+            bottom: 100px;
+            right: 10px;
+            background: rgb(0, 0, 0, 0.8);
+            transform: scaleY(0);
+            transition: transform 0.5s;
+        }
+        
+        .cont .box .details .content {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+            padding: 15px;
+            color: #fff;
+        }
+        
+        .cont .box .details .content p {
+            left: 070%;
+            color: #fff;
+            font-size: x-large;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .cont .box:hover .details {
+            transform: scaleY(1);
+        }
+    </style>
+
+    <div class="titles">
+        Choose a Subject
+    </div>
+
+
+    <div class="cont">
+        <div class="box1">
+
+
+
+        </div>
+        <div class="box">
+            <a href="AnimeClips.html">
+                <div class="imgbox">
+                    <img src="animemusicbutton.jpg" alt="DJanime">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <p>----- Anime Music -----</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="box">
+            <a href="BestVideoClipsInMontage.html">
+                <div class="imgbox">
+                    <img src="montagebutton.PNG" alt="Music Videos">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <p>----- Music Videos -----</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="box">
+            <a href="VideoClipsDesFilms.html">
+                <div class="imgbox">
+                    <img src="fillmsbutton.PNG" alt="FilmMusic">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <p>------- Film Music -------</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="nav-main">
+        <ul>
+            <li>Titles
+                <ul>
+                    <a href="Titres.html">
+                        <li>Choose a language :</li>
+                    </a>
+                    <a href="ArabicSongs.html">
+                        <li>Arabic</li>
+                    </a>
+
+
+                    <a href="EnglishSongs.html">
+                        <li>English</li>
+                    </a>
+
+                    <a href="FrenshSongs.html">
+                        <li>Frensh</li>
+                    </a>
+
+
+                    <a href="RussianSongs.html">
+                        <li>Russian</li>
+                    </a>
+
+
+                    <a href="SpanishSongs.html">
+                        <li>Spanish</li>
+                    </a>
+
+                </ul>
+            </li>
+            <li>Video Clips
+                <ul>
+                    <a href="VideoClips.html">
+                        <li>Choose a Subject :</li>
+                    </a>
+                    <a href="AnimeClips.html">
+                        <li>Anime Music</li>
+                    </a>
+                    <a href="BestVideoClipsInMontage.html">
+                        <li>My Favorite Music videos</li>
+                    </a>
+                    <a href="VideoClipsDesFilms.html">
+                        <li>Film Music</li>
+                    </a>
+                </ul>
+            </li>
+
+
+            <li>Play-List Spotify
+                <ul>
+                    <a href="PlayListsSpotify.html">
+                        <li>My Favorite 600+ songs</li>
+                    </a>
+                </ul>
+            </li>
+
+            <li>Play-List YouTube
+                <ul>
+                    <a href="PlayListsYoutube.html">
+                        <li>45min+ Music :</li>
+                    </a>
+                    <a href="Bassbosted.html">
+                        <li>Bass Boosted Music</li>
+                    </a>
+                    <a href="Chilling.html">
+                        <li>Chilling Music</li>
+                    </a>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <a href="index.html">
+        <img class="backtomenu" src="BackToWelcome.png" alt="Menu">
+    </a>
+    <style>
+        .backtomenu {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            filter: invert();
+            left: 2%;
+            top: 3%;
+        }
+        
+        .backtomenu:hover {
+            filter: brightness(0);
+        }
+    </style>
+
+
+
+
+
+
+
+    <footer>
+
+        <img class="logo" src="logo.gif" alt="music_logo">
+        <div class="footbox5"><span style="color: bisque;">My Favorite Music</span> </div>
+        <div class="footbox">
+            <P>For a better Experiance <br> Please put on your <br> headphones 🎧 And <br> make them Sterio Mode :)</P>
+        </div>
+        <div class="footbox1">
+            <p>Besides all of this I made a music by myself.</p>
+        </div>
+        <div class="footbox2"> Wanna <a href="listen.html">Listen</a> ?</div>
+        <div class="footbox3">
+            <p>
+                <ul> &nbsp;Contacte-me:
+                    <li> Phone number: +212687764755</li>
+                    <li> Email: yasserchenik218@gmailcom</li>
+                    <li> Facebook and my name: Yasser Chenik </li>
+                </ul>
+            </p>
+        </div>
+        <div class="footbox4">
+            <p>Disclaimer: This website is a music library . All the pictures and songs are collected and <span color="red">not<span> owned by me. However My song is a no Copyright song (CLICK Listen above)<br><br>Creator's word: I hop you enjoy my personal choices and taste of music ...</p>
+        </div>
+
+        </footer>
+</body>
+
+</html>
